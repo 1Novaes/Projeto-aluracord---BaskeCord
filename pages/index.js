@@ -14,6 +14,7 @@ function Titulo(props) {
                   color: ${appConfig.theme.colors.neutrals['000']};
                   font-size: 24px;
                   font-weight: 600;
+                
               }
               `}</style>
         </>
@@ -42,7 +43,7 @@ export default function PaginaInicial() {
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     backgroundColor: appConfig.theme.colors.primary['000'],
-                    backgroundImage: 'url(https://cdn.pixabay.com/photo/2019/10/18/15/41/basketball-4559472_960_720.jpg)',
+                    backgroundImage: 'url(https://cdn.pixabay.com/photo/2021/11/30/16/48/fantasy-6835790_960_720.jpg)',
                     backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
                 }}
             >
@@ -96,7 +97,7 @@ export default function PaginaInicial() {
                                     textColor: appConfig.theme.colors.neutrals[200],
                                     mainColor: appConfig.theme.colors.neutrals[900],
                                     mainColorHighlight: appConfig.theme.colors.primary[500],
-                                    backgroundColor: appConfig.theme.colors.neutrals[800],
+                                    backgroundColor: appConfig.theme.colors.neutrals[700],
                                 },
                             }}
                         />
@@ -107,7 +108,7 @@ export default function PaginaInicial() {
                             buttonColors={{
                                 contrastColor: appConfig.theme.colors.neutrals["000"],
                                 mainColor: appConfig.theme.colors.primary[500],
-                                mainColorLight: appConfig.theme.colors.primary[500],
+                                mainColorLight: appConfig.theme.colors.primary[400],
                                 mainColorStrong: appConfig.theme.colors.primary[400],
                             }}
                         />
@@ -123,10 +124,7 @@ export default function PaginaInicial() {
                             alignItems: 'center',
                             maxWidth: '200px',
                             padding: '16px',
-                            backgroundColor: appConfig.theme.colors.neutrals[800],
-                            border: '1px solid',
-                            borderColor: appConfig.theme.colors.neutrals[999],
-                            borderRadius: '10px',
+
                             flex: 1,
                             minHeight: '240px',
                         }}
